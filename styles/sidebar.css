@@ -1,0 +1,41 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 60px;
+    bottom: 50px;
+    left: 0;
+    width: 200px;
+    z-index: 1;
+	border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: gray;
+    
+    background-color: white;
+}
+
+
+
+aside button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    border-width: 0;
+    background-color: white;
+
+}
+
+aside button:hover {
+    transition-duration: 500ms;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+aside button img {
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
